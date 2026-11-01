@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { EmployeeCard } from '../components/EmployeeCard';
 import { Loader } from '../components/Loader/Loader';
-import { Link } from 'react-router-dom';
 
 export const EmployeeDirectory = () => {
     const [employeeList, setEmployeeList] = useState([]);

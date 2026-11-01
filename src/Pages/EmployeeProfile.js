@@ -84,7 +84,7 @@ export const EmployeeProfile = () => {
                                 </div>
                                 <div className="employee-info-item">
                                     <span className="employee-info-label">Website</span>
-                                    <a className="employee-info-value employee-website" target="_blank" href={`https://${employeeprofile.website}`}>
+                                    <a className="employee-info-value employee-website" rel="noreferrer" target="_blank" href={`https://${employeeprofile.website}`}>
                                         {employeeprofile.website}
                                     </a>
                                 </div>

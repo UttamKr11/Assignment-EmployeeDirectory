@@ -19,7 +19,7 @@ export const EmployeeCard = ({ employee }) => {
         <p className="detail-row">
           <span className="field">Email:</span>
           <span className="value">
-            <a href={`mailto:${employee.email}`}>{employee.email}</a>
+            <a href={`mailto:${employee.email}`} >{employee.email}</a>
           </span>
         </p>
 
@@ -36,7 +36,7 @@ export const EmployeeCard = ({ employee }) => {
         <p className="detail-row">
           <span className="field">Website:</span>
           <span className="value website">
-            <a href={`https://${employee.website}`} target="_blank" >
+            <a href={`https://${employee.website}`} target="_blank" rel="noreferrer" >
               {employee.website}
             </a>
           </span>
