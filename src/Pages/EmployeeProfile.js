@@ -60,7 +60,7 @@ export const EmployeeProfile = () => {
                     <section className="employee-profile-layout" aria-label="Employee details">
                         <div className="employee-avatar-panel">
                             <div className="employee-avatar" role="img" aria-label="Avatar of Leanne Graham">
-                                <img src={`https://api.dicebear.com/10.x/initials/svg?seed=${employeeprofile.name}`} />
+                                <img alt={employeeprofile.name} src={`https://api.dicebear.com/10.x/initials/svg?seed=${employeeprofile.name}`} />
 
                             </div>
 
